@@ -1,3 +1,3 @@
 Hello everyone, this here is a basic look of how the A.I. will look and some functions that it can perform. I will be working more on it
 and will try to explore the depth of its functionality as much as possible. Even though it will take some time to complete but I will try 
-my level best to imporve it everyday
+my level best to improve it everyday
