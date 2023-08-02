@@ -5,7 +5,7 @@ import speech_recognition as sr
 import wikipedia
 import webbrowser
 import os
-# import smtplib
+# import smtplib #This module is used for sending mail to any machine by defining an SMTP client 
 import subprocess
 
 engine = pyttsx3.init('sapi5')
@@ -67,7 +67,8 @@ if __name__=="__main__":
             print(results)
             speak("According to wikipedia")
             speak(results)
-        
+        #basic codes that I wrote while learning about the webbrowser module
+        #These codes open basic simple websites a user would want the A.I. to open
         # elif 'open youtube' in query:
         #     webbrowser.open("youtube.com")
         
