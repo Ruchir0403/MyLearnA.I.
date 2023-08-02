@@ -1,0 +1,268 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #082d58;
+    background-color: #030000; /* Light gray background color */
+  }
+  
+  /* Wrapper styles */
+  #wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  /* Intro styles */
+  #intro {
+    text-align: center;
+    background-color: #082d58; /* Dark gray background color */
+    color: #fff;
+    padding: 4em 2em;
+    margin-bottom: 2em;
+  }
+  
+  #intro h1 {
+    font-size: 48px;
+    margin-bottom: 1em;
+  }
+  
+  #intro p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  #intro .actions {
+    margin-top: 2em;
+  }
+  
+  /* Header styles */
+  #header {
+    text-align: center;
+    background-color: #082d58; /* Dark gray background color */
+    color: #fff;
+    padding: 1em;
+  }
+  
+  #header a.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navigation styles */
+  #nav {
+    text-align: center;
+    background-color: #082d58; /* Slightly lighter gray background color */
+    padding: 1em 0;
+  }
+  
+  #nav ul.links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #nav ul.links li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  #nav ul.links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #nav ul.links li.active a {
+    font-weight: bold;
+  }
+  
+  #nav ul.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  
+  #nav ul.icons li {
+    margin-right: 1em;
+  }
+  
+  #nav ul.icons li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #082d58; /* Slightly lighter gray background color */
+    padding: 0.5em;
+    border-radius: 50%;
+  }
+  
+  /* Main content styles */
+  #main {
+    margin-bottom: 2em;
+    background-color: #fff; /* White background color for main content */
+    padding: 2em;
+  }
+  
+  /* Featured post styles */
+  .post.featured {
+    margin-bottom: 3em;
+  }
+  
+  .post.featured header.major h2 {
+    font-size: 36px;
+  }
+  
+  .post.featured p {
+    line-height: 1.8;
+  }
+  
+  .post.featured .actions.special {
+    margin-top: 2em;
+  }
+  
+  /* Regular post styles */
+  .post {
+    margin-bottom: 2em;
+  }
+  
+  .post header h2 {
+    font-size: 28px;
+    margin-bottom: 0.5em;
+  }
+  
+  .post p {
+    line-height: 1.6;
+  }
+  
+  .post .image.fit {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .post .actions.special {
+    margin-top: 1em;
+  }
+  
+  .post .actions.special li {
+    margin-right: 1em;
+  }
+  
+  .post .actions.special li a {
+    padding: 0.75em 1.5em;
+  }
+  
+  /* Footer styles */
+  #footer {
+    text-align: center;
+    background-color: #082d58; /* Slightly lighter gray background color */
+    color: #fff;
+    padding: 2em;
+  }
+  
+  #footer form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+  #footer form .fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #footer form .fields .field {
+    margin: 0.5em;
+  }
+  
+  #footer form .fields .field label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  #footer form .fields .field input,
+  #footer form .fields .field textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #footer form .fields .field textarea {
+    resize: vertical;
+  }
+  
+  #footer form .actions {
+    margin-top: 1em;
+  }
+  
+  #footer form .actions input[type="submit"] {
+    background-color: #082d58; /* Dark gray background color */
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #footer section.split {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #footer section.split .alt {
+    flex-basis: 40%;
+  }
+  
+  #footer section.split h3 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+  }
+  
+  #footer section.split p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+  }
+  
+  #footer section.split ul.icons.alt li a {
+    background-color: #082d58; /* Slightly lighter gray background color */
+  }
+  
+  /* Box styles for headings */
+  h1, h2, h3, h4, h5, h6 {
+    padding: 0.5em 1em;
+    background-color: #082d58; /* Dark gray background color */
+    color: #fff;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    #nav ul.links {
+      display: none;
+    }
+  
+    #nav ul.icons {
+      margin-top: 0;
+    }
+  
+    #nav ul.icons li {
+      margin-right: 0.5em;
+    }
+  
+    #intro h1 {
+      font-size: 36px;
+    }
+  
+    #intro p {
+      font-size: 16px;
+    }
+  
+    .post header h2 {
+      font-size: 24px;
+    }
+  }
+  
